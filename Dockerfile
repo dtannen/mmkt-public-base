@@ -1,6 +1,5 @@
 FROM ubuntu:14.04
 
-
 # http://askubuntu.com/a/601498/154707
 RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
