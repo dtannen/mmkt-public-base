@@ -14,7 +14,9 @@ RUN apt-get install -y \
   nodejs \
   npm \
   imagemagick \
-  nodejs-legacy
+  nodejs-legacy \
+  postgresql-client \
+  awscli
 
 # Fix cron permission issue
 # https://github.com/aptible/docker-ubuntu/issues/5
